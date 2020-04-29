@@ -50,13 +50,7 @@ public class MainActivity extends AppCompatActivity {
                 ChangeVisibility();
             }
         });
-        TextView textViewButtonE2 = findViewById(R.id.textViewButtonE2);
-        textViewButtonE2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                ChangeVisibility();
-            }
-        });
+
 
 
     }
@@ -71,12 +65,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void ChangeVisibility() {
-        if (findViewById(R.id.relativeLayout0).getVisibility() == View.VISIBLE) {
-            findViewById(R.id.relativeLayout0).setVisibility(View.GONE);
-            findViewById(R.id.relativeLayoutEngeneering).setVisibility(View.VISIBLE);
-        } else {
-            findViewById(R.id.relativeLayout0).setVisibility(View.VISIBLE);
-            findViewById(R.id.relativeLayoutEngeneering).setVisibility(View.GONE);
-        }
+        if (findViewById(R.id.r1).getVisibility() == View.VISIBLE) {
+            findViewById(R.id.r1).setVisibility(View.GONE);
+           } else {
+            findViewById(R.id.r1).setVisibility(View.VISIBLE);
+          }
     }
 }
