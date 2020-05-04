@@ -110,17 +110,17 @@
                     android:layout_weight="1"
                     android:orientation="horizontal">
 
-                    <TextView
+                    <Button
                         android:id="@+id/textViewButtonC"
                         style="@style/FontTheme30"
                         android:text="@string/textViewButtonC" />
 
-                    <TextView
+                    <Button
                         android:id="@+id/textViewButtonPlusMinus"
                         style="@style/FontTheme30"
                         android:text="@string/textViewButtonPlusMinus" />
 
-                    <TextView
+                    <Button
                         android:id="@+id/textViewButtonPercent"
                         style="@style/FontTheme30"
                         android:text="@string/textViewButtonPercent" />
@@ -133,17 +133,17 @@
                     android:layout_weight="1"
                     android:orientation="horizontal">
 
-                    <TextView
+                    <Button
                         android:id="@+id/textViewButton7"
                         style="@style/FontTheme30"
                         android:text="@string/textViewButton7" />
 
-                    <TextView
+                    <Button
                         android:id="@+id/textViewButton8"
                         style="@style/FontTheme30"
                         android:text="@string/textViewButton8" />
 
-                    <TextView
+                    <Button
                         android:id="@+id/textViewButton9"
                         style="@style/FontTheme30"
                         android:text="@string/textViewButton9" />
@@ -156,17 +156,17 @@
                     android:layout_weight="1"
                     android:orientation="horizontal">
 
-                    <TextView
+                    <Button
                         android:id="@+id/textViewButton4"
                         style="@style/FontTheme30"
                         android:text="@string/textViewButton4" />
 
-                    <TextView
+                    <Button
                         android:id="@+id/textViewButton5"
                         style="@style/FontTheme30"
                         android:text="@string/textViewButton5" />
 
-                    <TextView
+                    <Button
                         android:id="@+id/textViewButton6"
                         style="@style/FontTheme30"
                         android:text="@string/textViewButton6" />
@@ -179,17 +179,17 @@
                     android:layout_weight="1"
                     android:orientation="horizontal">
 
-                    <TextView
+                    <Button
                         android:id="@+id/textViewButton1"
                         style="@style/FontTheme30"
                         android:text="@string/textViewButton1" />
 
-                    <TextView
+                    <Button
                         android:id="@+id/textViewButton2"
                         style="@style/FontTheme30"
                         android:text="@string/textViewButton2" />
 
-                    <TextView
+                    <Button
                         android:id="@+id/textViewButton3"
                         style="@style/FontTheme30"
                         android:text="@string/textViewButton3" />
@@ -208,13 +208,13 @@
                         android:layout_weight="1"
                         android:text="@string/textViewButtonChange" />
 
-                    <TextView
+                    <Button
                         android:id="@+id/textViewButton0"
                         style="@style/FontTheme30"
                         android:layout_weight="1"
                         android:text="@string/textViewButton0" />
 
-                    <TextView
+                    <Button
                         android:id="@+id/textViewButtonDot"
                         style="@style/FontTheme30"
                         android:layout_weight="1"
